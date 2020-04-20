@@ -1,0 +1,12 @@
+sed
+gzip
+pacman
+systemd
+archlinux-keyring
+bash
+bzip2
+file
+gawk
+grep
+tar
+procps-ng
