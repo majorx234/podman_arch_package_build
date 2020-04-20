@@ -13,6 +13,6 @@
 * `./build_with_podman_an_archpackage.sh pkgbuild_repo.txt /mnt/artifacts <proxy>`
   * `pkgbuild_repo.txt` is a file with PKGBUILD repo
   * `/mnt/artifacts` the *artifacts folder
-  * `<proxy>` could be `'export http_proxy="http://myproxy";export https_proxy="http://myproxy";export ftp_proxy="http://myproxy"'
+  * `<proxy>` could be `'export http_proxy="http://myproxy";export https_proxy="http://myproxy";export ftp_proxy="http://myproxy"'`
     * or empty
 
