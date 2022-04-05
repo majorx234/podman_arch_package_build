@@ -10,4 +10,4 @@ sudo arch-chroot $tempfolder pacman-key --init
 sudo arch-chroot $tempfolder pacman-key --populate archlinux
 #sudo tar -C $tempfolder -c .| podman import - archlinux/arch_base
 sudo tar --numeric-owner --xattrs --acls --exclude-from=exclude -C $tempfolder -c . -f archlinux.tar 
-sudo rm $tempfolder
+sudo rm -rf $tempfolder
